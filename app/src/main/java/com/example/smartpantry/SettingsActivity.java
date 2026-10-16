@@ -1,4 +1,5 @@
 package com.example.smartpantry;
+
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Switch;

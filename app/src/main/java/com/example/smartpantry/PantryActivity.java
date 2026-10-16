@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
 public class PantryActivity extends AppCompatActivity {
+
     DatabaseHelper db;
 
     PantryAdapter adapter;
