@@ -36,3 +36,4 @@ public class PantryActivity extends AppCompatActivity {
         c.close(); adapter.notifyDataSetChanged();
     }
 }
+
