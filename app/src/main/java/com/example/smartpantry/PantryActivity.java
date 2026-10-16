@@ -9,6 +9,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
 public class PantryActivity extends AppCompatActivity {
     DatabaseHelper db;
+
     PantryAdapter adapter;
     ArrayList<PantryItem> items=new ArrayList<>();
     @Override protected void onCreate(Bundle b) {
