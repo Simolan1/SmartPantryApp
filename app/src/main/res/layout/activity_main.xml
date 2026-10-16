@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="24dp" android:gravity="center"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="Smart Pantry Manager" android:textSize="26sp" android:textStyle="bold"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnPantry" android:text="My Pantry" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnRecipes" android:text="Suggested Recipes" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnSettings" android:text="Settings" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
