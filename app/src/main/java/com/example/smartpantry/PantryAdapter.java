@@ -19,6 +19,7 @@ public class PantryAdapter extends RecyclerView.Adapter<PantryAdapter.VH>{
             i.putExtra("id",x.id); context.startActivity(i);});
         h.delete.setOnClickListener(v->{db.deletePantry(x.id);list.remove(pos);notifyDataSetChanged();});
     }
+
     @Override public int getItemCount(){return list.size();}
     static class VH extends RecyclerView.ViewHolder{
         TextView name,qty,expiry; ImageButton delete;
